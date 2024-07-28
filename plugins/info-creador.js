@@ -7,7 +7,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const buttonMessage= {
     'document': {url: `https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC`},
     'mimetype': `application/${document}`,
-    'fileName': `KillzN`, 
+    'fileName': `Barbie`, 
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
@@ -17,7 +17,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'mediaUrl': 'https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': 'Killzn',
+        'title': 'Barbie',
         'body': wm,
         'thumbnail': imagen1,
         'sourceUrl': 'https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC'}},

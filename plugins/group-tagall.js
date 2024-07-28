@@ -5,10 +5,10 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
     }
     let pesan = args.join` `
     let oi = `*𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙎:* ${pesan}`
-    let teks = `*> Tʜᴇ Sᴜɴ Is Bʀɪɢʜᴛ Bᴜᴛ Nᴏᴛ As Bʀɪɢʜᴛ As Mᴇ ☀️*\n\n ${oi}\n\n➥ _*@ineffable.mvrco:*_\n`
+    let teks = `*> Barbie la mejor de la región ☀️*\n\n ${oi}\n\n➥ _*Tod@s:*_\n`
     for (let mem of participants) {
     teks += `🥷🏼 @${mem.id.split('@')[0]}\n`}
-    teks += `└ *KɪʟʟBᴏᴛ ⇝@ineffable.mvrco*`
+    teks += `└ *Barbie bot ⇝@its_elicxta*`
     conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
     }
     handler.help = ['tagall <mesaje>','invocar <mesaje>']
